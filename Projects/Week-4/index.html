@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-UA-Compatible" content="IE">
+    <meta name="viewport" content="width=device-width">
+    <title>Week 4 Demo</title>
+</head>
+<body>
+    <header>
+        <h1> Week 4 Demo</h1>
+        <nav>
+            <ul>
+                <lil><a href="index.html">Home</a></lil>
+               <lil><a href="about.html">About Us</a></lil> 
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Images</h2>
+        <img src="images/coffee-shop.jpg" alt="coffee cup and beans">
+    </section>
+    <section>
+        <h2>Links</h2>
+        <p>Search the web on <a href="http://google.ca" target="_blank">Google</a></p>
+    </section>
+    <section>
+        <h2>Tables</h2>
+        <table>
+            <caption>Student Information</caption>
+            <thead>
+                <tr>
+                    <th>SID</th>
+                    <th>Name</th>
+                    <th>Grade</th>  
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Gloria</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Gloria B</td>
+                    <td>0.75%</td>  
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Forms</h2>
+        <form action="about.html" method="get">
+            <div>
+                <label for="fname">First Name</label>
+                <input id="fname" name="firstname" type="text">
+            </div>
+            <div>
+                <label for="comments"></label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+            <div>
+                <label for="program">Program</label>
+                <select id="program" name="prog">
+                    <option value="imd">Interactive Media Design</option>
+                    <option value="gd">Graphic Desi gn</option>
+                </select>
+            </div>
+            <div>
+                <h3>What courses do you want?</h3>
+                <label for="webdev">Web Development</label>
+                <input type="checkbox" ide="webdev" name="wd">
+
+                <label for="graphic">Graphic Tech</label>
+                <input type="checkbox" id="graphic" name="gt">
+            </div>
+            <div>
+                <h3> Would you like a reply?</h3>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="reply" value="yes">
+
+                <label for="no">No</label>
+                <input type="radio" id="no" name="reply" value="no">
+            </div>
+            <div>
+                <button type="submit">SEND</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
