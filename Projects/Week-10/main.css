@@ -1,11 +1,18 @@
 .parent {
     backgraund-color: bisque;
     width: 700px;
-    height: 700px;
+    height: 150px;
     color: white;
     font-size: 2.5rem;
     text-align: center;
     /* flexbox properties */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify content is fro main axis */
+    justify-content: space-around;
+    /* align-items is for cross axis */
+    align-items: flex-end;
 }
 
 .box {
@@ -14,14 +21,32 @@
 }
 
 .parent .box:nth-child(1) {
-    background-color: coral; 
+    background-color: coral;
 }
+
 .parent .box:nth-child(2) {
-    background-color: cadetblue; 
+    background-color: cadetblue;
+    /* flex-basis: 250px; */
+    flex-grow: 1;
 }
+
 .parent .box:nth-child(3) {
-    background-color: purple; 
+    background-color: purple;
 }
+
 .parent .box:nth-child(4) {
-    background-color: darkgreen; 
+    background-color: darkgreen;
+    flex-grow: 2;
+    order: -1;
 }
+
+@media screen and (min-width:600px) {
+    .parent{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .parent {
+        width: 600px;
+    }
