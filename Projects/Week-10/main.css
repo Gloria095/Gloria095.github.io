@@ -1,0 +1,27 @@
+.parent {
+    backgraund-color: bisque;
+    width: 700px;
+    height: 700px;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    /* flexbox properties */
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+}
+
+.parent .box:nth-child(1) {
+    background-color: coral; 
+}
+.parent .box:nth-child(2) {
+    background-color: cadetblue; 
+}
+.parent .box:nth-child(3) {
+    background-color: purple; 
+}
+.parent .box:nth-child(4) {
+    background-color: darkgreen; 
+}
