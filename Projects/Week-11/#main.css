@@ -9,10 +9,11 @@ body {
 .grid {
     background-color: bisque;
     padding: 5px;
-    width: 800px;
+    border: 1px dashed #333;
+    width: 700px;
     /* grid properties */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:repeat(3, 1fr);
 }
 
 .grid > div {
@@ -29,6 +30,29 @@ body {
     background-color: coral;
 }
 
-.two {
+.three {
     background-color: lightgreen;
+}
+.four{
+    background-color: blueviolet;
+}
+
+.five {
+    background-color: brown;
+}
+
+.six {
+    background-color: brown;
+}
+
+.seven{
+    background-color: lightcoral;
+}
+
+.eight {
+    background-color: red;
+}
+
+.nine {
+    background-color: burlywood;
 }
