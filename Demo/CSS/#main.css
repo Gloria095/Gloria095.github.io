@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 5px;
+    padding: 2px;
+    width: 300px; 
+    background-color: blue;
+
+    border-color: blue;
+    align-self:baseline;
+  } 
+  
