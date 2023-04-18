@@ -196,7 +196,7 @@ img {
 
 /***** end: banner *****/
 
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * * * * * * * * * * * *Start : Main * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * * * * * * * * * * * * * * * ** * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * *Start : Main* * * * * * */
 
 
 /* link button */
@@ -239,4 +239,97 @@ img {
 
 /*****Start : Services*****/
 
+#Services,
+#Team {
+    margin-top: 40px;
+    background-color: #fff;
+
+}
+
+#Services h2 {
+    margin-bottom: 10px;
+}
+
+.Services-box {
+    background-color: #ffe6ac;
+    margin-top: 15px;
+}
+
+.Services-wrap {
+    padding: 15px;
+}
+
+#Services h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+/*****end : Services*****/
+
+
+/***** start:vision *****/
+
+#Vision {
+    background-image: url("../images/vision.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    color: white;
+}
+
+#Vision h2 {
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+
+
+
+.vision-btn {
+    border: 1px solid #c78c06;
+    margin-top: 15px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+/***** end:vision *****/
+
+
+/*****start:team*****/
+
+.team-wrap {
+    background-color: #ffe6ac;
+}
+
+.team-heading h2 {
+    margin-bottom: 10px;
+}
+
+.team-wrap {
+    margin-top: 12px;
+}
+
+.team-box:not(.team1, .team3) {
+    padding: 10px 10px 20px 10px;
+}
+
+
+.team-box h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 10px 0 5px 0;
+}
+
+/* subtitle of team box*/
+
+.team-box h3+p {
+    font-size: 1.2rem;
+    font-weight: 800;
+    border-bottom: 2px solid #be7d00;
+    margin-bottom: 8px;
+}
+
+
+/*****end:team*****/
+
+/*****start:contact*****/
 
