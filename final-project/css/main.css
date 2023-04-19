@@ -62,10 +62,6 @@ img {
     padding: 3%;
 }
 
-
-
-
-
 .nav-list li {
     display: block;
     padding: 13px 0;
@@ -123,7 +119,6 @@ img {
     font-size: 13px;
 }
 
-
 .search-button {
     border: 1px solid #c78c06;
     width: 30px;
@@ -151,7 +146,6 @@ img {
     font-size: 15px;
 }
 
-
 .fa-search {
     color: #c78c06;
     background-color: transparent;
@@ -159,9 +153,7 @@ img {
 }
 
 
-
 /****** end:nav *****/
-
 
 
 /***** start : banner *****/
@@ -419,9 +411,7 @@ td {
     background-color: #333;
   }
 
-  
-
-/* * * * * * start:footer * * ****/
+ /* * * * * * start:footer * * ****/
 
 footer {
     color: #c78c06;
@@ -431,7 +421,6 @@ footer {
 .footer-wrap p:nth-child(2) {
     margin-top: 10px;
 }
-
 
 /******Desktop******/
 
