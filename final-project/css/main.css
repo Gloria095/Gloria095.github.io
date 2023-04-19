@@ -242,16 +242,16 @@ img {
     margin-bottom: 10px;
 }
 
-.Services-box {
+.services-box {
     background-color: #ffe6ac;
     margin-top: 15px;
 }
 
-.Services-wrap {
+.services-wrap {
     padding: 15px;
 }
 
-#Services h3 {
+#services h3 {
     font-size: 1.3rem;
     font-weight: 700;
     padding: 10px 0;
@@ -529,13 +529,13 @@ footer {
         padding: 30px 160px;
     }
 
-    .Services-wrap {
+    .services-wrap {
         padding: 20px;
     }
 
     /* grid */
 
-    .Services {
+    .services {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
@@ -572,7 +572,7 @@ footer {
         margin-bottom: 20px;
     }
 
-    .Services-btn {
+    .services-btn {
         width: 100%;
         padding: 45px 0;
         font-size: 2rem;
