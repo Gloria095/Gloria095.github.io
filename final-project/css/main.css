@@ -328,8 +328,111 @@ img {
     margin-bottom: 8px;
 }
 
-
 /*****end:team*****/
 
 /*****start:contact*****/
+#Contact {
+    background-color: white;
+}
+
+#Contact h2 {
+    font-size: 2rem;
+}
+
+#Contact h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.contact-box form {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.contact-box form input {
+    display: block;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.contact-box button {
+    background-color: #222;
+    color: #c78c06;
+    padding: 5px;
+    font-size: 0.8rem;
+    margin-top: 15px;
+}
+
+.contact2 h3 {
+    margin-top: 30px;
+}
+
+.table-wrap table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table-wrap th,
+tr,
+td {
+    border: 1px solid #222;
+    padding: 13px;
+}
+
+.table-wrap thead {
+    background-color: #ffe6ac;
+}
+
+.contact3 h3 {
+    margin-top: 30px;
+}
+
+
+
+/*****end:contact******/
+
+
+/* top-button */
+.top {
+    display: inline-block;
+    background-color: #faac36;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 22px;
+  }
+
+  .fa-chevron-up{
+    color: white;
+    font-size: 23px;
+    padding-top: 9PX;
+  }
+
+  .top:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+
+  
+
+/* * * * * * start:footer * * ****/
+
+footer {
+    color: #c78c06;
+    padding: 30px 0 25px 25px;
+}
+
+.footer-wrap p:nth-child(2) {
+    margin-top: 10px;
+}
+
+
+/******Desktop******/
+
 
